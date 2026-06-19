@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use ICES v2, please cite it as below."
+authors:
+  - family-names: "Daghar"
+    given-names: "Marc Gilbert"
+    email: "marc.daghar@example.com"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "ICES v2: Islamic Civilizational Economic Simulator"
+version: 2.0.0
+date-released: 2026-06-19
+url: "https://github.com/yourusername/ices-v2"
+repository-code: "https://github.com/yourusername/ices-v2"
+license: "CC0-1.0"
+keywords:
+  - "agent-based modeling"
+  - "Islamic economics"
+  - "complex systems"
+  - "resilience"
+  - "historical calibration"

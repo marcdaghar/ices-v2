@@ -20,3 +20,13 @@
 
 ```bash
 pytest tests/ -v --cov=src/ --cov-report=html
+
+Documentation
+Docstrings in NumPy format
+
+Update docs/ when adding features
+
+Add Jupyter notebooks for tutorials
+
+License
+By contributing, you agree that your contributions will be licensed under CC0 (code) and CC BY-SA (research outputs).

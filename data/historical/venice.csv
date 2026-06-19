@@ -1,0 +1,8 @@
+civilization,year,year_type,population,trade_volume,price_level,coin_quality,state_revenue,wealth_gini,urban_population,conflict_frequency
+Venice,1000,CE,30.0,200.0,100.0,0.95,100.0,0.30,80.0,0.1
+Venice,1200,CE,50.0,350.0,120.0,0.93,150.0,0.33,85.0,0.1
+Venice,1400,CE,70.0,500.0,140.0,0.90,200.0,0.36,88.0,0.2
+Venice,1500,CE,80.0,550.0,160.0,0.88,220.0,0.38,90.0,0.2
+Venice,1600,CE,85.0,580.0,180.0,0.85,230.0,0.40,90.0,0.3
+Venice,1700,CE,80.0,550.0,210.0,0.82,210.0,0.42,88.0,0.3
+Venice,1797,CE,70.0,480.0,240.0,0.78,180.0,0.45,85.0,0.4

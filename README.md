@@ -71,3 +71,75 @@ Data: CC BY-SA 4.0
   doi = {10.5281/zenodo.XXXXXXX},
   url = {https://github.com/marcdaghar/ices-v2}
 }
+📁 Project Structure
+
+ices-v2/
+├── paper/
+│   ├── manuscript.pdf          # 📄 Full paper (LaTeX compiled)
+│   └── manuscript.tex          # 📝 LaTeX source
+├── src/                        # Source code
+│   ├── agents/                 # Agent classes
+│   ├── layers/                 # 4-layer architecture
+│   ├── models/                 # Main model
+│   ├── analysis/               # Analysis modules
+│   └── visualization/          # Dashboard
+├── data/                       # Historical data
+├── scripts/                    # Execution scripts
+├── notebooks/                  # Jupyter notebooks
+├── tests/                      # Unit tests
+└── results/                    # Simulation outputs
+
+🔬 Reproducibility
+All results in the paper can be reproduced by running:
+python scripts/run_paper1_pipeline.py
+
+See docs/replication.md for detailed instructions.
+
+
+---
+
+## 📁 3. STRUCTURE FINALE
+ices-v2/
+├── paper/
+│ ├── manuscript.tex # 📝 Article LaTeX
+│ ├── manuscript.pdf # 📄 Article PDF (à compiler)
+│ └── references.bib # 📚 Bibliographie
+├── README.md # ✅ Mis à jour avec lien vers l'article
+├── src/ # Code source
+├── data/ # Données historiques
+├── scripts/ # Scripts d'exécution
+├── notebooks/ # Jupyter notebooks
+├── tests/ # Tests unitaires
+├── requirements.txt
+├── pyproject.toml
+├── LICENSE
+├── CONTRIBUTING.md
+└── CITATION.cff
+
+
+---
+
+## 🚀 COMMANDES POUR AJOUTER CES FICHIERS
+
+```bash
+# Créer le dossier paper
+mkdir -p paper
+
+# Ajouter les fichiers
+touch paper/manuscript.tex
+touch paper/references.bib
+touch paper/.gitkeep
+
+# Compiler le PDF (nécessite LaTeX)
+cd paper
+pdflatex manuscript.tex
+bibtex manuscript
+pdflatex manuscript.tex
+pdflatex manuscript.tex
+cd ..
+
+# Ou utiliser Overleaf pour la compilation en ligne
+# Télécharger manuscript.tex et references.bib sur Overleaf
+
+# Vérifier que le README est à jour
+cat README.md | grep -A 5 "Paper"

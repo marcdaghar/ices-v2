@@ -1,0 +1,8 @@
+civilization,year,year_type,population,trade_volume,price_level,coin_quality,state_revenue,wealth_gini,urban_population,conflict_frequency
+Mamluks,1250,CE,30.0,150.0,100.0,0.90,50.0,0.35,65.0,0.2
+Mamluks,1300,CE,40.0,200.0,120.0,0.88,60.0,0.38,68.0,0.2
+Mamluks,1350,CE,45.0,220.0,140.0,0.85,65.0,0.40,70.0,0.3
+Mamluks,1400,CE,42.0,210.0,160.0,0.82,60.0,0.45,68.0,0.3
+Mamluks,1450,CE,38.0,190.0,180.0,0.78,55.0,0.50,65.0,0.4
+Mamluks,1500,CE,35.0,170.0,200.0,0.75,50.0,0.55,60.0,0.4
+Mamluks,1517,CE,30.0,150.0,220.0,0.70,45.0,0.60,55.0,0.5

@@ -1,6 +1,3 @@
-# ices-v2
-"Islamic Civilizational Economic Simulator v2 - A calibrated agent-based laboratory for institutional resilience research"
-
 # ICES v2 - Islamic Civilizational Economic Simulator
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
@@ -18,11 +15,19 @@ ICES v2 is a **calibrated agent-based computational laboratory** for studying ho
 - **Global sensitivity analysis**: Sobol indices to identify driving parameters
 - **Falsifiability**: Explicit criteria with minimum variance explained thresholds
 
+## 📄 Paper
+
+The paper describing ICES v2 is available as a preprint:
+
+> Daghar, M. G. (2026). **Institutional Portfolios and Civilizational Resilience: Hierarchical Bayesian Evidence from 10 Pre-Modern Economies**. *arXiv:2606.XXXXX*.
+
+📄 **Read the full manuscript**: [paper/manuscript.pdf](paper/manuscript.pdf)
+
 ## 🚀 Quick Start
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ices-v2.git
+git clone https://github.com/marcdaghar/ices-v2.git
 cd ices-v2
 
 # Create virtual environment
@@ -37,10 +42,6 @@ python scripts/run_paper1_pipeline.py
 
 # Launch dashboard
 streamlit run src/visualization/dashboard.py
-📄 Paper
-The paper describing ICES v2 is available as a preprint:
-
-Daghar, M. G. (2026). Institutional Portfolios and Civilizational Resilience: A Calibrated Agent-Based Study of Pre-Modern Economic Systems. arXiv:2606.XXXXX.
 
 📚 Documentation
 Architecture
@@ -58,11 +59,9 @@ Contributions are welcome! See CONTRIBUTING.md for guidelines.
 Code: CC0 1.0 Universal
 
 Research outputs: CC BY-SA 4.0
-
 Data: CC BY-SA 4.0
 
 📖 Citation
-bibtex
 @software{daghar2026ices,
   author = {Daghar, Marc Gilbert},
   title = {ICES v2: Islamic Civilizational Economic Simulator},
@@ -70,5 +69,5 @@ bibtex
   publisher = {Zenodo},
   version = {2.0.0},
   doi = {10.5281/zenodo.XXXXXXX},
-  url = {https://github.com/yourusername/ices-v2}
+  url = {https://github.com/marcdaghar/ices-v2}
 }

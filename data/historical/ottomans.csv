@@ -1,0 +1,10 @@
+civilization,year,year_type,population,trade_volume,price_level,coin_quality,state_revenue,wealth_gini,urban_population,conflict_frequency
+Ottomans,1300,CE,20.0,100.0,100.0,0.90,30.0,0.30,60.0,0.1
+Ottomans,1400,CE,40.0,180.0,120.0,0.88,50.0,0.35,65.0,0.2
+Ottomans,1500,CE,60.0,280.0,140.0,0.85,70.0,0.38,70.0,0.2
+Ottomans,1600,CE,80.0,380.0,160.0,0.82,90.0,0.40,75.0,0.2
+Ottomans,1700,CE,85.0,400.0,180.0,0.78,100.0,0.45,78.0,0.3
+Ottomans,1800,CE,80.0,380.0,220.0,0.72,90.0,0.52,75.0,0.4
+Ottomans,1850,CE,75.0,350.0,260.0,0.68,80.0,0.58,72.0,0.4
+Ottomans,1900,CE,70.0,320.0,300.0,0.65,70.0,0.62,70.0,0.5
+Ottomans,1922,CE,65.0,300.0,350.0,0.60,60.0,0.65,68.0,0.6

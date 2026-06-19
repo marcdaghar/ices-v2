@@ -130,4 +130,30 @@ class EconomicMechanisms:
         
         # CRD stabilization
         if self.use_crd:
-            grain_price = self.market.get_price("grain
+            grain_price = self.market.get_price("grain")
+            self.crd.stabilize("grain", grain_price)
+        
+        # Update money supply
+        if self.monetary_system == "dinar":
+            self.money_supply = total_gold + total_silver / self.market.gold_silver_ratio
+        elif self.monetary_system == "fiat":
+            self.money_supply = self.money_supply * (1 + 0.01)
+        elif self.monetary_system == "bitcoin":
+            self.money_supply = total_gold * 0.5
+        
+        # Price level
+        self.price_level = self.market.price_level
+        self.transaction_volume = sum(getattr(a, 'wealth', 0) for a in agents) * 0.1
+        
+        self.history.append({
+            "monetary_system": self.monetary_system,
+            "price_level": self.price_level,
+            "money_supply": self.money_supply,
+            "transaction_volume": self.transaction_volume
+        })
+
+    def get_inflation(self) -> float:
+        """Compute inflation rate."""
+        if len(self.history) < 2:
+            return 0.0
+        return (self.price_level - self.history[-2]["price_level"]) / self.history[-2]["price_level"]
